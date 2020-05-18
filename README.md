@@ -1,7 +1,7 @@
 # Contador de Panqueques
 
 Aplicación Web para contar panqueques
-Desarrollada en Vanilla JS, SASS y HTML5, utilizando Webpack para generar el build de producción y para disponer de Hot Reload en el modo de desarrollo.
+Desarrollada en Vanilla JS, SASS y HTML5, utilizando Webpack para generar el build de producción y para disponer de Hot Reload en el modo de desarrollo.<br /><br />
 [Demo](https://contadordepanqueques.netlify.app/)
 
 ## Scripts disponibles
