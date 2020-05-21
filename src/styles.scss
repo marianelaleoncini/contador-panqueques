@@ -70,7 +70,7 @@ body {
   }
 
   &__pancake {
-    animation: slide-bottom 0.5s linear both;
+    animation: slide-bottom 0.4s linear both;
     position: absolute;
     bottom: 20px;
     background: radial-gradient(ellipse 160px 80px at 160px 10px, rgb(194, 144, 91) 17%, rgb(181, 123, 61) 93%);
@@ -96,7 +96,7 @@ body {
     }
     
     &__count {
-      min-width: 35px;
+      min-width: 40px;
       line-height: 50px;
       font-size: 30px;
     }
@@ -105,7 +105,7 @@ body {
 
  @keyframes slide-bottom {
   0% {
-    transform: translateY(-100px);
+    transform: translateY(-80px);
   }
   100% {
     transform: translateY(0);
