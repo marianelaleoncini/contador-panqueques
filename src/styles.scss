@@ -62,7 +62,10 @@ body {
       width: 230px;
       height: 110px;
       border-radius: 50%;
-      box-shadow: inset 0px 12px 4px #c0c4cc;
+      box-shadow: inset 0px 12px 3px #c0c4cc,
+                  inset -8px 4px 3px #c0c4cc,
+                  inset 8px 4px 3px #c0c4cc,
+                  inset 0px -3px 3px #c0c4cc;
     }
   }
 
@@ -80,20 +83,22 @@ body {
   &__counter {
     display: flex;
     justify-content: center;
-    margin: 16px;
-    font-size: 20px;
+    margin: 16px 16px 20px;
 
     &__button {
       border-radius: 50%;
-      width: 30px;
-      height: 30px;
+      width: 50px;
+      height: 50px;
       margin: 0 20px;
       padding: 0;
       font-size: 24px;
+      line-height: 50px;
     }
     
     &__count {
       min-width: 35px;
+      line-height: 50px;
+      font-size: 30px;
     }
   } 
 }
